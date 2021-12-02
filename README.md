@@ -16,3 +16,6 @@ Im Ordner Ergebnisse sind alle Tabellenkalkulationsdateien gespeichert mit den E
 ## Übersicht Firmware-Images
 Enthält eine Übersicht über alle Geräte und wie viele Images erfolgreich entpackt werden konnten etc.
 
+## Änderungen an Logging-Files
+Bei manchen Emulationen kamen unglücklicherweise die Trennzeichen - und * teilweise in der Emulationsausgabe vor. Dies führte dazu, dass der Parser nicht richtig funktioniert hat. Daher habe ich bei manchen Emulationen diese Trennzeichen manuell entfernt, damit der Parser wieder fehlerfrei trennen kann. Das Emulationsergebnis wurde dabei nicht verfälscht oder sonstiges. Die Analyse wird dadurch ebenfalls nicht eingeschränkt. In dem File Änderungen-Logging.txt werden für jede Flag die Geräte und die dazugehöigen Binärdateien gelistet, wo Trennzeichen manuell entfernt wurden.
+
