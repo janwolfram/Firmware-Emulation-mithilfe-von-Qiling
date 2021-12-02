@@ -1,0 +1,31 @@
+questionmark:
+wan 4040 asec_dump_logs
+cable 6490 asec_dump_logs
+cable 6590 asec_dump_logs
+lte 6850 4g asec_dump_logs
+wlan 7530 asec_dump_logs
+fon waln 7582 memaccess, ethswctl
+fon wlan 7520 asec_dump_logs
+fon wlan 7581 memaccess, ethswctl
+
+
+version: 
+wan 4040 asec_dump_logs
+cable 6490 asec_dump_logs
+cable 6590 asec_dump_logs
+lte 6850 4g asec_dump_logs
+fon wlan 7530 asec_dump_logs
+fon wlan 7582 memaccess
+fon wlan 7520 asec_dump_logs
+fon wlan 7581 memaccess
+
+help: 
+7582 memaccess, ethswctl
+fon lwan 7520 asec_dump_logs
+wan 4040 asec_dump_logs
+cable 6490 asec_dump_logs
+cable 6590 asec_dump_logs
+fon wlan 7581 pidof, memaccess, ethswctl
+fon wlan 7530 asec_dump_logs
+fon wlan 7360 sl memaccess
+lte 6850 4g asec_dump_logs
